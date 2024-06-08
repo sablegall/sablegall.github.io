@@ -1,0 +1,340 @@
+/* FONTS */
+@font-face {
+    font-family: titreFont;
+    src: url(../font/moon_get-heavy.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+
+body{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin: 0;
+    font-family: "Hind Madurai", sans-serif;
+    overflow-x: hidden;
+    font-size: 17px;
+    color: #303030;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #7FB0BA;
+}
+
+h1{
+    color: #F5F5F5;
+    text-transform: uppercase;
+    font-family: titreFont;
+    font-size: 40px;
+}
+.titre-projet{
+    width: 60%;
+    text-align: center;
+}
+
+h2{
+    -webkit-text-stroke: 1px #303030;
+    color: #30303000;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: titreFont;
+    text-align: center;
+}
+
+h3{
+    font-size: 19px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.ancre{
+    color: #7FB0BA;
+}
+
+.marge{
+    margin: auto 180px auto 180px;
+}
+
+.cadre{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    border-radius: 15px;
+    box-shadow: 4px 3px 10px 0.1px #00000025;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container-tour{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: #D5D3E1 solid 1px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 15px;
+}
+
+.container-vertical{
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ANIMATION */
+.animation{
+    animation: slide linear;
+    animation-timeline: view();
+    animation-range-start: cover 0%;
+    animation-range-end: cover 30%;
+}
+@keyframes slide {
+    from{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* SEPARATIONS */
+.separation-horizontale{
+    width: 100%;
+    height: 1px;
+    background-color: #D5D3E1;
+}
+
+.bouton-centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.blue{
+    color: #7FB0BA;
+}
+.black{
+    color: #303030;
+}
+.grey{
+    color: #9a9a9a;
+}
+
+/* MENTIONS LEGALES */
+.section-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* ICONS */
+.icon {
+    display:block;
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.icon-35px{
+    width: 35px;
+    height: 35px;
+}
+.icon-30px{
+    width: 30px;
+    height: 30px;
+}
+.icon-20px{
+    width: 20px;
+    height: 20px;
+}
+.icon-logo{
+    width: 150px;
+    height: 45px;
+}
+
+/*         RESPONSIVE          */
+@media screen and (max-width: 1150px){
+    .marge{
+        margin: auto 80px auto 80px;
+    }
+}
+@media screen and (max-width: 851px){
+    body{
+        gap: 70px;
+    }
+    .marge{
+        margin: auto 70px auto 70px;
+    }
+    .animation{
+        animation-range-end: cover 30%;
+    }
+
+    .icon-logo{
+        width: 150px;
+        height: 45px;
+        margin-top: 35px;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    body{
+        font-size: 14px;
+    }
+    .marge{
+        margin: auto 20px auto 20px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    .titre-projet{
+        width: 60%;
+    }
+    
+    h2{
+        font-size: 25px;
+    }
+    
+    h3{
+        font-size: 17px;
+    }
+}
+
+
+.fleche-white{
+    background-image: url(../icons/fleche-white.svg);
+}
+.fleche-blue{
+    background-image: url(../icons/fleche-blue.svg);
+}
+
+/* Icons Logiciels */
+.figma{
+    background-image: url(../icons/figma-white.svg);
+}
+.blender{
+    background-image: url(../icons/blender-white.svg);
+}
+.ai{
+    background-image: url(../icons/ai-white.svg);
+}
+.ps{
+    background-image: url(../icons/ps-white.svg);
+}
+.vsc{
+    background-image: url(../icons/vsc-white.svg);
+}
+.git{
+    background-image: url(../icons/github-white.svg);
+}
+.chevron-right{
+    background-image: url(../icons/chevron-right-grey.svg);
+}
+.chevron-left{
+    background-image: url(../icons/chevron-left-grey.svg);
+}
+.flag-fr{
+    background-image: url(../icons/fr-flag-blue.svg);
+}
+.flag-eng{
+    background-image: url(../icons/eng-flag-blue.svg);
+}
+.flag-es{
+    background-image: url(../icons/es-flag-blue.svg);
+}
+.flag-kr{
+    background-image: url(../icons/kr-flag-blue.svg);
+}
+/* Icons Skills */
+.dev-front{
+    background-image: url(../icons/developpement-front-white.svg);
+}
+.modelisation{
+    background-image: url(../icons/modelisation-3d-white.svg);
+}
+.design-ux-ui{
+    background-image: url(../icons/design-ux-ui-white.svg);
+}
+.graphisme{
+    background-image: url(../icons/graphisme-white.svg);
+}
+.referencement{
+    background-image: url(../icons/referencement-white.svg);
+}
+
+/* Icons Softskills */
+.autonomie{
+    background-image: url(../icons/autonomie-blue.svg);
+}
+.adaptabilite{
+    background-image: url(../icons/adaptabilite-blue.svg);
+}
+.ecoute{
+    background-image: url(../icons/a-ecoute-blue.svg);
+}
+.equipe{
+    background-image: url(../icons/esprit-equipe-blue.svg);
+}
+.probleme{
+    background-image: url(../icons/resolution-problemes-blue.svg);
+}
+.apprentissage{
+    background-image: url(../icons/apprentissage-individuel-blue.svg);
+}
+.organise{
+    background-image: url(../icons/organsise-blue.svg);
+}
+.perseverance{
+    background-image: url(../icons/perseverance-blue.svg);
+}
+.objectif{
+    background-image: url(../icons/fixation-objectifs-blue.svg);
+}
+.introspection{
+    background-image: url(../icons/introspection-blue.svg);
+}
+.synthese{
+    background-image: url(../icons/synthese-informations-blue.svg);
+}
+.souci-details{
+    background-image: url(../icons/souci-details-blue.svg);
+}
+.temps{
+    background-image: url(../icons/gestion-temps-blue.svg);
+}
+.curiosite{
+    background-image: url(../icons/curiosite-blue.svg);
+}
+.incertitude{
+    background-image: url(../icons/gestion-incertitude-blue.svg);
+}
+.responsabilite{
+    background-image: url(../icons/responsabilite-blue.svg);
+}
+.reactivite{
+    background-image: url(../icons/reactivite-blue.svg);
+}
+.imagination{
+    background-image: url(../icons/imagination-blue.svg);
+}

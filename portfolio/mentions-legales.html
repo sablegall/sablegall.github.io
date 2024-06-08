@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentions légales - Portfolio Sabrina Le Gall</title>
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/composants.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body class="marge">
+    
+    <!-- ---------- HEADER ---------- -->
+    <header>
+        <a href="Accueil.html" class="logo">
+            <img src="img/logo-sabrina.svg" alt="logo" class="img-logo">
+        </a>
+        <nav id="navbar">
+            <a href="Accueil.html" class="link-header">Accueil</a>
+            <a href="a-propos.html" class="link-header">A propos</a>
+            <a href="portfolio.html" class="link-header">Projets</a>
+            <a href="contact.html" class="link-header">Contact</a>
+        </nav>
+        <div class="button-menu">
+            <a href="fichier/LE GALL Sabrina - CV.pdf" target="_blank" class="button button-blue">CV</a>
+            <ion-icon class="icon icon-35px grey menu-hamburger"name="menu"></ion-icon>
+        </div>
+    </header>
+
+    <!-- MENU HAMBURGER -->
+    <nav class="navbar-mobile">
+        <a href="Accueil.html" class="link-header">Accueil</a>
+        <a href="a-propos.html" class="link-header">A propos</a>
+        <a href="portfolio.html" class="link-header">Projets</a>
+        <a href="contact.html" class="link-header">Contact</a>
+    </nav>
+
+    <script>
+        const menu_hamburger = document.querySelector(".menu-hamburger");
+        const navbar_mobile = document.querySelector(".navbar-mobile");
+
+        menu_hamburger.addEventListener('click', ()=>{
+            navbar_mobile.classList.toggle('mobile-menu')
+        })
+    </script>
+
+    <!-- ---------- HERO BANNER SECONDARY ---------- -->
+    <section class="hero-banner-secondary">
+        <h1>Mentions légales</h1>
+    </section>
+
+    <!-- ---------- SECTION INFO ---------- -->
+    <section class="section-info">
+
+        <div class="container-info">
+            <h3>Propriétaire du site</h3>
+            <p>Propriétaire du site, éditeur et responsable de publication : Sabrina LE GALL</p>
+        </div>
+
+        <div class="container-info">
+            <h3>Hébergement du site</h3>
+            <p>...</p>
+        </div>
+
+        <div class="container-info">
+            <h3>Crédits et droits d'auteur</h3>
+            <p>L'ensemble du contenu présent sur ce site, les textes, images, documents, est la propriété intellectuelle de Sabrina LE GALL et est protégé par les lois sur le droit d'auteur. Aucune partie de ce site ne peut être reproduite, distribuée ou utilisée de quelque manière que ce soit sans autorisation préalable.</p>
+        </div>
+
+        <div class="container-info">
+            <h3>Contact</h2>
+            <p>Mail : sabrinalegall7@gmail.com</p>
+        </div>
+
+    </section>
+
+
+    <!-- ---------- SECTION CONTACT ---------- -->
+    <section class="section-contact cadre">
+        <img src="img/contact.webp" alt="">
+        <p>Ouverte à de nouvelles collaborations et avide d'apprendre, n'hésitez pas à me contacter pour discuter de vos projets créatifs ou de développement web. </p>
+        <a href="contact.html" class="button button-blue">Me contacter</a>
+    </section>
+    
+
+    <!-- ---------- FOOTER ---------- -->
+    <footer>
+        <div class="section-avant-footer"></div>
+        <div class="footer-info marge">
+            <div class="text-footer">
+                <p>2024 - Tous droits réservés - Sabrina Le Gall</p>
+                <a href="mentions-legales.html">Mentions légales</a>
+            </div>
+            <a href="https://www.linkedin.com/in/sabrina-le-gall-826b57221/" target="_blank"><ion-icon class="icon icon-30px black" name="logo-linkedin"></ion-icon></a>
+        </div>
+    </footer>
+</body>
+</html>

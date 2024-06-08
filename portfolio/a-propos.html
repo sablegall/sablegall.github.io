@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propos - Portfolio Sabrina Le Gall</title>
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/composants.css">
+    <link rel="stylesheet" href="style/a-propos.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body class="marge">
+
+    <!-- ---------- HEADER ---------- -->
+    <header>
+        <a href="Accueil.html" class="logo">
+            <img src="img/logo-sabrina.svg" alt="logo" class="img-logo">
+        </a>
+        <nav id="navbar">
+            <a href="Accueil.html" class="link-header">Accueil</a>
+            <a href="a-propos.html" class="link-header active">A propos</a>
+            <a href="portfolio.html" class="link-header">Projets</a>
+            <a href="contact.html" class="link-header">Contact</a>
+            <div class="line"></div>
+        </nav>
+        <div class="button-menu">
+            <a href="fichier/LE GALL Sabrina - CV.pdf" target="_blank" class="button button-blue">CV</a>
+            <ion-icon class="icon icon-35px grey menu-hamburger"name="menu"></ion-icon>
+        </div>
+    </header>
+
+    <!-- MENU HAMBURGER -->
+    <nav class="navbar-mobile">
+        <a href="Accueil.html" class="link-header">Accueil</a>
+        <a href="a-propos.html" class="link-header  active">A propos</a>
+        <a href="portfolio.html" class="link-header">Projets</a>
+        <a href="contact.html" class="link-header">Contact</a>
+    </nav>
+
+    <script>
+        const menu_hamburger = document.querySelector(".menu-hamburger");
+        const navbar_mobile = document.querySelector(".navbar-mobile");
+
+        menu_hamburger.addEventListener('click', ()=>{
+            navbar_mobile.classList.toggle('mobile-menu')
+        })
+    </script>
+
+    <!-- ---------- HERO BANNER SECONDARY ---------- -->
+    <section class="hero-banner-secondary">
+        <h1>A propos de moi</h1>
+    </section>
+
+    <!-- ---------- HERO BANNER SECONDARY IMAGE ---------- -->
+    <div class="banner-img">
+        <img class="img-banner-propos" src="img/joyful woman pointing diagonally-sans-fond.webp" alt="avatar 3d">
+    </div>
+    
+    <!-- ---------- SECTION ABOUT ---------- -->
+    <section class="section-about animation">
+        <div class="about">
+            <img src="img/sabrina.webp" alt="mon avatar" class="img-avatar-pc">
+            <div class="about-description">
+                <p>Je m’appelle Sabrina Le Gall, étudiante de 21 ans en 3ème année de BUT MMI à l’IUT de Lannion. J’effectue mes études en alternance depuis bientôt 2 ans comme assistante de communication à Photonics Bretagne.</p>
+                <p>Mon parcours académique et professionnel reflète ma passion pour la créativité sous toutes ses formes. Que ce soit à travers la production graphique, la modélisation 3D ou le développement web, j'aime explorer des horizons divers pour nourrir mon esprit créatif et développer mes compétences.</p>
+                <p>À l'avenir, je souhaite me spécialiser en tant qu’artiste 3D ou développeur front-end, fusionnant ainsi ma fascination pour la modélisation 3D avec mes compétences en développement web.</p>
+                <p>Plongez dans <a href="portfolio.html" class="ancre">mon univers</a> créatif et technique, où l'innovation et la passion se rencontrent pour donner vie à des projets uniques et inspirants.</p>
+                <div class="bouttons">
+                    <a href="fichier/LE GALL Sabrina - CV.pdf" target="_blank" class="button button-blue">CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------- SECTION PARCOURS ---------- -->
+    <section class="section-parcours animation">
+        <h2>Mon parcours</h2>
+        <div class="double-accordion">
+            <div class="accordion">
+
+                <div class="container-parcours">
+                    <p class="label">Bachelor Universitaire de Technologie Métiers du Multimédia et de l'Internet</p>
+                    <div class="content-parcours">
+                        <P class="top-content-parcours">IUT de Lannion (22) - 2021/2024</P>
+                        <ul>
+                            <li>Parcours Développement Web et Dispositifs Interactifs</li>
+                            <li>Communication digitale et de l'internet</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="separation-horizontale"></div>
+    
+                <div class="container-parcours">
+                    <p class="label">Baccalauréat Général</p>
+                    <div class="content-parcours">
+                        <P class="top-content-parcours">Lycée du Pays de Retz à Pornic (44) - 2021</P>
+                        <ul>
+                            <li>Spécialités Numérique et Sciences Informatiques, Mathématiques</li>
+                            <li>Mention bien</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion">
+
+                <div class="container-parcours">
+                    <p class="label">Alternance en tant qu'Assistante de Communication</p>
+                    <div class="content-parcours">
+                        <P class="top-content-parcours">Photonics Bretagne à Lannion (22) - 2022/2024</P>
+                        <ul>
+                            <li>Développement et administration du nouveau site web</li>
+                            <li>Conception des newsletters INFOtonics</li>
+                            <li>Création de supports visuels</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="separation-horizontale"></div>
+    
+                <div class="container-parcours">
+                    <p class="label">Stage d'Observation en Webdesign</p>
+                    <div class="content-parcours">
+                        <P class="top-content-parcours">Pivot Point à Nantes (44) - 2018</P>
+                        <ul>
+                            <li>Création de logo et flyer pour un institut de beauté</li>
+                            <li>Création d'un site web avec le CMS Wordpress</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const accordion = document.getElementsByClassName('container-parcours');
+
+        for(i = 0; i<accordion.length; i++){
+            accordion[i].addEventListener('click', function(){
+                this.classList.toggle('active-parcours');
+            })
+        }
+    </script>
+
+    <!-- ---------- SECTION SKILLS ---------- -->
+    <section class="section-skills animation">
+        <h2>Mes compétences</h2>
+        <div class="skills-description">
+            <p class="content-skill active-skill">Experte en développement front-end, je manipule JavaScript, HTML et CSS pour créer des interfaces interactives. Je maîtrise également la personnalisation avancée de sites WordPress pour répondre précisément à chaque besoin.</p>
+            <p class="content-skill">Spécialisée dans la modélisation 3D avec Blender, je crée des rendus visuels captivants et des animations dynamiques. Mon expertise dans ce domaine permet de donner vie à des concepts et de produire des contenus visuels innovants pour divers projets créatifs.</p>
+            <p class="content-skill">La création d’interfaces intuitives et esthétiques pour offrir une expérience utilisateur optimale. Ma passion pour l'UX/UI me permet de concevoir des solutions interactives qui allient fonctionnalité et esthétique, afin de répondre aux besoins spécifiques de chaque utilisateur et de chaque projet.</p>
+            <p class="content-skill">Spécialisée dans le graphisme, utilisant ma créativité et mon expertise pour concevoir des visuels percutants et attractifs. Ma passion pour le graphisme me permet de créer des designs uniques et mémorables, qu'il s'agisse d'illustrations ou de supports de communication, afin de donner vie à la vision de chaque projet.</p>
+            <p class="content-skill">Spécialisée dans le référencement naturel, en utilisant des stratégies et des techniques avancées pour améliorer la visibilité et le classement des sites web dans les résultats de recherche. Ma maîtrise du référencement naturel me permet d'optimiser efficacement le contenu et la structure des sites web, afin d'attirer un trafic organique de qualité et de maximiser leur impact en ligne.</p>
+            <div class="skills-img-choice">
+                <div class="skills-choice">
+                    <div class="skills skill-dev active-skill">
+                        <div class="skill">
+                            <i class="icon icon-35px dev-front"></i>
+                        </div>
+                        <p class="text-skills">Développement front</p>
+                    </div>
+                    <div class="skills skill-3d">
+                        <div class="skill">
+                            <i class="icon icon-35px modelisation"></i>
+                        </div>
+                        <p class="text-skills">Modélisation 3D</p>
+                    </div>
+                    <div class="skills skill-ux-ui">
+                        <div class="skill">
+                            <i class="icon icon-35px design-ux-ui"></i>
+                        </div>
+                        <p class="text-skills">Design UX/UI</p>
+                    </div>
+                    <div class="skills skill-design">
+                        <div class="skill">
+                            <i class="icon icon-35px graphisme"></i>
+                        </div>
+                        <p class="text-skills">Graphisme</p>
+                    </div>
+                    <div class="skills skill-seo">
+                        <div class="skill">
+                            <i class="icon icon-35px referencement"></i>
+                        </div>
+                        <p class="text-skills">Référencement</p>
+                    </div>
+                </div>
+                <img src="img/developpement-front.webp" alt="developpement front 3d" class="img-skill active-skill">
+                <img src="img/modelisation-3d.webp" alt="modelisation 3d" class="img-skill">
+                <img src="img/design-ux-ui.webp" alt="design ux ui 3d" class="img-skill">
+                <img src="img/graphisme.webp" alt="graphisme 3d" class="img-skill">
+                <img src="img/referencement.webp" alt="referencement 3d" class="img-skill">
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const tabs = document.querySelectorAll('.skills');
+        const all_content = document.querySelectorAll('.content-skill');
+        const all_img = document.querySelectorAll('.img-skill');
+
+        tabs.forEach((tab, index)=>{
+            tab.addEventListener('click', (e)=>{
+                tabs.forEach(tab=>{tab.classList.remove('active-skill')});
+                tab.classList.add('active-skill');
+
+                all_content.forEach(content=>{content.classList.remove('active-skill')});
+                all_content[index].classList.add('active-skill');
+
+                all_img.forEach(img=>{img.classList.remove('active-skill')});
+                all_img[index].classList.add('active-skill');
+            })
+        })
+    </script>
+
+    <!-- ---------- SECTION TOOLS ---------- -->
+    <section class="section-tools">
+        <i class="icon icon-logo figma"></i>
+        <i class="icon icon-logo blender"></i>
+        <i class="icon icon-logo ai"></i>
+        <i class="icon icon-logo ps"></i>
+        <i class="icon icon-logo vsc"></i>
+        <i class="icon icon-logo git"></i>
+    </section>
+
+    <!-- ---------- CONTAINER ---------- -->
+    <div class="container animation">
+
+        <!-- ---------- SECTION LANGUES ---------- -->
+        <section class="section-langues">
+            <h2>Langues</h2>
+            <div class="container-tour container-vertical">
+                <div class="langue">
+                    <div class="icon-langue">
+                        <i class="icon icon-35px flag-fr"></i>
+                        <p class="langue-name">Français</p>
+                    </div>
+                    <p class="niveau-langue">C2</p>
+                </div>
+
+                <div class="separation-horizontale"></div>
+
+                <div class="langue">
+                    <div class="icon-langue">
+                        <i class="icon icon-35px flag-eng"></i>
+                        <p class="langue-name">Anglais</p>
+                    </div>
+                    <p class="niveau-langue">B1</p>
+                </div>
+
+                <div class="separation-horizontale"></div>
+
+                <div class="langue">
+                    <div class="icon-langue">
+                        <i class="icon icon-35px flag-es"></i>
+                        <p class="langue-name">Espagnol</p>
+                    </div>
+                    <p class="niveau-langue">A2</p>
+                </div>
+
+                <div class="separation-horizontale"></div>
+
+                <div class="langue">
+                    <div class="icon-langue">
+                        <i class="icon icon-35px flag-kr"></i>
+                        <p class="langue-name">Coréen</p>
+                    </div>
+                    <p class="niveau-langue">A1</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------- SECTION SOFTSKILLS ---------- -->
+        <section class="section-softskills">
+            <h2>Softskills</h2>
+            <div class="container-softskills">
+                <div class="container-soft-vertical">
+                    <div class="softskill">
+                        <i class="icon icon-35px autonomie"></i>
+                        <p class="softskill-name">Autonomie</p>
+                    </div>
+                    <div class="softskill">
+                        <i class="icon icon-35px ecoute"></i>
+                        <p class="softskill-name">A l'écoute</p>
+                    </div>
+                    <div class="softskill">
+                        <i class="icon icon-35px probleme"></i>
+                        <p class="softskill-name">Résolution de problèmes</p>
+                    </div>
+                </div>
+                <div class="container-soft-vertical">
+                    <div class="softskill">
+                        <i class="icon icon-35px adaptabilite"></i>
+                        <p class="softskill-name">Adaptabilité</p>
+                    </div>
+                    <div class="softskill">
+                        <i class="icon icon-35px equipe"></i>
+                        <p class="softskill-name">Esprit d'équipe</p>
+                    </div>
+                    <div class="softskill">
+                        <i class="icon icon-35px apprentissage"></i>
+                        <p class="softskill-name">Apprentissage individuel</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ---------- SECTION RS ---------- -->
+    <section class="section-rs animation">
+        <h2>Retrouvez moi ici</h2>
+        <div class="container-tour">
+            <ion-icon class="icon icon-35px blue" name="logo-linkedin"></ion-icon>
+            <a class="rs-name" href="https://www.linkedin.com/in/sabrina-le-gall-826b57221/" target="_blank">Linkedin</a>
+        </div>
+    </section>
+
+    <!-- ---------- SECTION CONTACT ---------- -->
+    <section class="section-contact cadre">
+        <img src="img/contact.webp" alt="message 3d">
+        <p>Ouverte à de nouvelles collaborations et avide d'apprendre, n'hésitez pas à me contacter pour discuter de vos projets créatifs ou de développement web. </p>
+        <a href="contact.html" class="button button-blue">Me contacter</a>
+    </section>
+    
+
+    <!-- ---------- FOOTER ---------- -->
+    <footer>
+        <div class="section-avant-footer"></div>
+        <div class="footer-info marge">
+            <div class="text-footer">
+                <p>2024 - Tous droits réservés - Sabrina Le Gall</p>
+                <a href="mentions-legales.html">Mentions légales</a>
+            </div>
+            <a href="https://www.linkedin.com/in/sabrina-le-gall-826b57221/" target="_blank"><ion-icon class="icon icon-30px black" name="logo-linkedin"></ion-icon></a>
+        </div>
+    </footer>
+
+</body>
+</html>

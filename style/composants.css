@@ -429,6 +429,7 @@ font-weight: 600;
         transition: all 0.5s ease;
         gap: 50px;
         z-index: 3;
+        position: fixed;
     }
     .navbar-mobile.mobile-menu{
         margin-left: 0;

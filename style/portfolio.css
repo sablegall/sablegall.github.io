@@ -97,13 +97,22 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url(img/separation-card-white.svg);
+    background-image: url(../img/separation-card-white.svg);
     margin-top: -100px;
 }
 
 /* Images projet */
 .projet-photonics-bretagne{
-    background-image: url(img/Rectangle\ 76.png)
+    background-image: url(../img/mockup-plein-photonics-bretagne.webp)
+}
+.projet-portfolio{
+    background-image: url(../img/mockup-plein-portfolio.webp)
+}
+.projet-halloween{
+    background-image: url(../img/figurine-halloween.webp)
+}
+.projet-source{
+    background-image: url(../img/source-ancestrale-projet.webp)
 }
 
 @media screen and (max-width: 851px){

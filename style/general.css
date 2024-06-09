@@ -96,8 +96,8 @@ li{
 .animation{
     animation: slide linear;
     animation-timeline: view();
-    animation-range-start: cover 30%;
-    animation-range-end: cover 30%;
+    animation-range-start: cover 0%;
+    animation-range-end: cover 20%;
 }
 @keyframes slide {
     from{

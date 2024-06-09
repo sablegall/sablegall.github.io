@@ -76,6 +76,9 @@
 .texte-processus{
     width: 50%;
 }
+.container-info-processus img{
+    border-radius: 30px;
+}
 
 /* SECTION HARDSKILLS */
 .section-hardskills{

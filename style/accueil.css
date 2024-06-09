@@ -85,11 +85,26 @@
     transition: 1s;
 }
 
-.projet-img-type img{
+.img-projet-slide{
     margin-bottom: 30px;
     margin-top: -100px;
     width: 320px;
+    height: 320px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
 }
+.slide-photonics-bretagne{
+    background-image: url(../img/mockup-plein-photonics-bretagne.webp);
+}
+.slide-portfolio{
+    background-image: url(../img/mockup-plein-portfolio.webp);
+}
+.slide-halloween{
+    background-image: url(../img/figurine-halloween.webp);
+}
+
 .navigation{
     cursor: pointer;
 }

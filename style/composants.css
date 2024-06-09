@@ -241,6 +241,8 @@ footer{
 .banner-img-centre{
     justify-content: center;
     margin-top: -250px !important;
+}
+.banner-img-centre img{
     width: 30%;
 }
 
@@ -455,6 +457,9 @@ font-weight: 600;
     .banner-portfolio img{
         width: 50%;
     }
+    .banner-img-centre img{
+        width: 20%;
+    }    
 
     .about{
         flex-direction: column;

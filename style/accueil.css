@@ -153,11 +153,6 @@
         flex-direction: column;
     }
 
-    .projet-img-type img{
-        width: 100%;
-        height: 200px;
-    }
-
     .projet-description{
         padding: 0 0 0 0;
         gap: 0;
@@ -170,8 +165,8 @@
         flex-direction: column;
     }
     .img-projet-slide{
-        width: 90px;
-        height: 90px;
+        width: 200px;
+        height: 200px;
     }
     .navigation-slider{
         gap: 70px;
@@ -194,5 +189,9 @@
 @media screen and (max-width: 415px){
     .bouton-centre{
         margin-top: 330px;
+    }
+    .img-projet-slide{
+        width: 150px;
+        height: 150px;
     }
 }

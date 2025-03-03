@@ -38,6 +38,7 @@
     margin-top: -150px;
     z-index: 2;
     flex-direction: column;
+    justify-content: center;
 }
 
 .section-accroche p{

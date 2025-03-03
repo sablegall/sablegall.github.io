@@ -102,17 +102,26 @@
 }
 
 /* Images projet */
+.projet-aquatic-species{
+    background-image: url(img/mockup-plein-aquatic-species.png)
+}
+.projet-mariage-com{
+    background-image: url(img/mockup-plein-mariage-com.png)
+}
+.projet-asul{
+    background-image: url(img/mockup-plein-asul.png)
+}
 .projet-photonics-bretagne{
-    background-image: url(../img/mockup-plein-photonics-bretagne.webp)
+    background-image: url(../img/mockup-plein-photonics-bretagne.png)
 }
 .projet-portfolio{
-    background-image: url(../img/mockup-plein-portfolio.webp)
+    background-image: url(../img/mockup-plein-portfolio.png)
 }
 .projet-halloween{
-    background-image: url(../img/figurine-halloween.webp)
+    background-image: url(../img/figurine-halloween.png)
 }
 .projet-source{
-    background-image: url(../img/source-ancestrale-projet.webp)
+    background-image: url(../img/source-ancestrale-projet.png)
 }
 
 @media screen and (max-width: 851px){

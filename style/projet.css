@@ -135,3 +135,17 @@
         width: 80%;
     }
 }
+
+.container-purple{
+    width: 100vw;
+    background-color: #E7E6EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+.container-fit{
+    width: 70%;
+}

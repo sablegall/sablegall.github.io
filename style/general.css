@@ -267,6 +267,15 @@ li{
     background-image: url(../icons/kr-flag-blue.svg);
 }
 /* Icons Skills */
+.creativite{
+    background-image: url(../icons/creativite-blue.svg);
+}
+.initiative{
+    background-image: url(../icons/initiative-blue.svg);
+}
+.gestion{
+    background-image: url(../icons/gestion-blue.svg);
+}
 .dev-front{
     background-image: url(../icons/developpement-front-white.svg);
 }

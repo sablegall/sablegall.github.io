@@ -97,14 +97,14 @@
     background-repeat: no-repeat;
     border-radius: 30px;
 }
-.slide-photonics-bretagne{
-    background-image: url(../img/mockup-plein-photonics-bretagne.webp);
+.slide-1{
+    background-image: url(../img/mockup-plein-aquatic-species.png);
 }
-.slide-portfolio{
-    background-image: url(../img/mockup-plein-portfolio.webp);
+.slide-2{
+    background-image: url(../img/mockup-plein-mariage-com.png);
 }
-.slide-halloween{
-    background-image: url(../img/figurine-halloween.webp);
+.slide-3{
+    background-image: url(../img/mockup-plein-asul.png);
 }
 
 .navigation{

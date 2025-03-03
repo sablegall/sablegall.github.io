@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariage - Portfolio Sabrina Le Gall</title>
+    <link rel="stylesheet" href="../style/general.css">
+    <link rel="stylesheet" href="../style/composants.css">
+    <link rel="stylesheet" href="../style/projet.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body class="marge">
+
+    <!-- ---------- HEADER ---------- -->
+    <header>
+        <a href="../Accueil.html" class="logo">
+            <img src="../img/logo-sabrina.svg" alt="logo" class="img-logo">
+        </a>
+        <nav id="navbar">
+            <a href="../Accueil.html" class="link-header">Accueil</a>
+            <a href="../a-propos.html" class="link-header">A propos</a>
+            <a href="../portfolio.html" class="link-header active">Projets</a>
+            <a href="../contact.html" class="link-header">Contact</a>
+            <div class="line"></div>
+        </nav>
+        <div class="button-menu">
+            <a href="../fichier/LE GALL Sabrina - CV.pdf" target="_blank" class="button button-blue">CV</a>
+            <ion-icon class="icon icon-35px grey menu-hamburger"name="menu"></ion-icon>
+        </div>
+    </header>
+
+    <!-- MENU HAMBURGER -->
+    <nav class="navbar-mobile">
+        <a href="../Accueil.html" class="link-header">Accueil</a>
+        <a href="../a-propos.html" class="link-header">A propos</a>
+        <a href="../portfolio.html" class="link-header active">Projets</a>
+        <a href="../contact.html" class="link-header">Contact</a>
+    </nav>
+
+    <script>
+        const menu_hamburger = document.querySelector(".menu-hamburger");
+        const navbar_mobile = document.querySelector(".navbar-mobile");
+
+        menu_hamburger.addEventListener('click', ()=>{
+            navbar_mobile.classList.toggle('mobile-menu')
+        })
+    </script>
+
+    <!-- ---------- HERO BANNER SECONDARY ---------- -->
+    <section class="hero-banner-secondary banner-centre">
+        <h1 class="titre-projet">Mariage - Identité visuelle & communication</h1>
+    </section>
+
+    <!-- ---------- HERO BANNER SECONDARY IMAGE ---------- -->
+    <div class="banner-img banner-img-centre">
+        <img src="img/mockup-mariage-com.png" alt="mockup site web mariage-com">
+    </div>
+    
+    <!-- ---------- CONTAINER ---------- -->
+    <div class="container animation">
+
+        <!-- ---------- SECTION DETAILS PROJET ---------- -->
+        <section class="section-details">
+            <h2>Détails du projet</h2>
+            <div class="container-tour container-vertical">
+                <div class="details">
+                    <p class="type-name">Services</p>
+                    <p class="type-details">Graphisme</p>
+                </div>
+
+                <div class="separation-horizontale"></div>
+
+                <div class="details">
+                    <p class="type-name">Client</p>
+                    <p class="type-details">Famille</p>
+                </div>
+
+                <div class="separation-horizontale"></div>
+
+                <div class="details">
+                    <p class="type-name">Logiciels</p>
+                    <p class="type-details">Figma</p>
+                </div>
+
+                <div class="separation-horizontale"></div>
+
+                <div class="details">
+                    <p class="type-name">Date</p>
+                    <p class="type-details">novembre 2024</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------- SECTION ABOUT ---------- -->
+        <section class="section-about">
+            <h2>A propos</h2>
+            <div class="about-description">
+                <p>Pour le mariage de ma sœur j’ai eu le plaisir de concevoir toute la communication visuelle, en accord avec leur thème : festival, jeux d’énigme et Japon.</p>
+                <p>J’ai conçu un "Save the Date" sous la forme d’un ticket de festival, intégrant les couleurs du marié pour assurer une cohérence visuelle. Un RSVP et un formulaire en ligne ont également été mis en place pour faciliter la réponse des invités.</p>
+                <p>Afin de renforcer leur univers, j’ai imaginé un logo unique, mêlant leurs initiales, et chaque élément graphique a été soigneusement pensé pour faire écho à leur thème. Mon objectif était de concevoir une communication immersive et personnalisée à leur image, créant ainsi une expérience mémorable pour les mariés et leurs invités.</p>
+                <div class="bouttons">
+                    <a href="../fichier/Mariage-Communication.pdf" target="_blank" class="button button-blue">Accéder au projet</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ---------- CONTAINER ---------- -->
+    <div class="container-purple">
+        <div class="container container-fit animation">
+
+            <!-- ---------- SECTION HARDSKILLS ---------- -->
+            <section class="section-hardskills">
+                <h2>Hardskills</h2>
+                <div class="container-tour container-vertical">
+                    <p class="hardskill">Étude d’autres identités visuelles pour s’inspirer et répondre aux attentes</p>
+
+                    <div class="separation-horizontale"></div>
+
+                    <p class="hardskill">Conception d’une identité visuelle cohérente et impactante</p>
+
+                    <div class="separation-horizontale"></div>
+
+                    <p class="hardskill">Harmonisation des éléments graphiques pour une lecture fluide</p>
+
+                    <div class="separation-horizontale"></div>
+
+                    <p class="hardskill">Vérification de l’ergonomie et de l’impact visuel avant finalisation</p>
+                </div>
+            </section>
+
+            <!-- ---------- SECTION SOFTSKILLS ---------- -->
+            <section class="section-softskills">
+                <h2>Softskills</h2>
+                <div class="container-softskills">
+                    <div class="container-soft-vertical">
+                        <div class="softskill">
+                            <i class="icon icon-35px creativite"></i>
+                            <p class="softskill-name">Créativité</p>
+                        </div>
+                        <div class="softskill">
+                            <i class="icon icon-35px souci-details"></i>
+                            <p class="softskill-name">Sens du détail</p>
+                        </div>
+                        <div class="softskill">
+                            <i class="icon icon-35px adaptabilite"></i>
+                            <p class="softskill-name">Adaptabilité</p>
+                        </div>
+                    </div>
+                    <div class="container-soft-vertical">
+                        <div class="softskill">
+                            <i class="icon icon-35px gestion"></i>
+                            <p class="softskill-name">Gestion de projet</p>
+                        </div>
+                        <div class="softskill">
+                            <i class="icon icon-35px ecoute"></i>
+                            <p class="softskill-name">Écoute & communication</p>
+                        </div>
+                        <div class="softskill">
+                            <i class="icon icon-35px initiative"></i>
+                            <p class="softskill-name">Esprit d’initiative</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="bouton-centre">
+        <a href="../portfolio.html" class="button button-blue">Découvrir d'autres projets</a>
+    </div>
+    <!-- ---------- SECTION CONTACT ---------- -->
+    <section class="section-contact cadre">
+        <img src="../img/contact.webp" alt="message 3d">
+        <p>Ouverte à de nouvelles collaborations et avide d'apprendre, n'hésitez pas à me contacter pour discuter de vos projets créatifs ou de développement web. </p>
+        <a href="../contact.html" class="button button-blue">Me contacter</a>
+    </section>
+    
+
+    <!-- ---------- FOOTER ---------- -->
+    <footer>
+        <div class="section-avant-footer"></div>
+        <div class="footer-info marge">
+            <div class="text-footer">
+                <p>2025 - Tous droits réservés - Sabrina Le Gall</p>
+                <a href="../mentions-legales.html">Mentions légales</a>
+            </div>
+            <a href="https://www.linkedin.com/in/sabrina-le-gall-826b57221/" target="_blank"><ion-icon class="icon icon-30px black" name="logo-linkedin"></ion-icon></a>
+        </div>
+    </footer>   
+</body>
+</html>

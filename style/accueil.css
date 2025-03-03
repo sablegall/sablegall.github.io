@@ -37,6 +37,7 @@
 .section-accroche{
     margin-top: -150px;
     z-index: 2;
+    flex-direction: column;
 }
 
 .section-accroche p{

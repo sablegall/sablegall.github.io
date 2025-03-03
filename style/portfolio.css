@@ -118,10 +118,10 @@
     background-image: url(../img/mockup-plein-portfolio.png)
 }
 .projet-halloween{
-    background-image: url(../img/figurine-halloween.png)
+    background-image: url(../img/figurine-halloween.webp)
 }
 .projet-source{
-    background-image: url(../img/source-ancestrale-projet.png)
+    background-image: url(../img/source-ancestrale-projet.webp)
 }
 
 @media screen and (max-width: 851px){

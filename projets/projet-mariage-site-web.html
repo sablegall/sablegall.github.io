@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariage 2025 - Portfolio Sabrina Le Gall</title>
+    <link rel="stylesheet" href="../style/general.css">
+    <link rel="stylesheet" href="../style/composants.css">
+    <link rel="stylesheet" href="../style/projet.css">
+    <link rel="icon" type="image/x-icon" href="../icons/favicon-sabrina.svg">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body class="marge">
+
+    <!-- ---------- HEADER ---------- -->
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../img/logo-sabrina.svg" alt="logo" class="img-logo">
+        </a>
+        <nav id="navbar">
+            <a href="../index.html" class="link-header">Accueil</a>
+            <a href="../a-propos.html" class="link-header">A propos</a>
+            <a href="../portfolio.html" class="link-header active">Projets</a>
+            <a href="../contact.html" class="link-header">Contact</a>
+            <div class="line"></div>
+        </nav>
+        <div class="button-menu">
+            <a href="../fichier/LE GALL Sabrina - CV.pdf" target="_blank" class="button button-blue">CV</a>
+            <ion-icon class="icon icon-35px grey menu-hamburger"name="menu"></ion-icon>
+        </div>
+    </header>
+
+    <!-- MENU HAMBURGER -->
+    <nav class="navbar-mobile">
+        <a href="../Accueil.html" class="link-header">Accueil</a>
+        <a href="../a-propos.html" class="link-header">A propos</a>
+        <a href="../portfolio.html" class="link-header active">Projets</a>
+        <a href="../contact.html" class="link-header">Contact</a>
+    </nav>
+
+    <script>
+        const menu_hamburger = document.querySelector(".menu-hamburger");
+        const navbar_mobile = document.querySelector(".navbar-mobile");
+
+        menu_hamburger.addEventListener('click', ()=>{
+            navbar_mobile.classList.toggle('mobile-menu')
+        })
+    </script>
+
+    <!-- ---------- HERO BANNER SECONDARY ---------- -->
+    <section class="hero-banner-secondary banner-centre">
+        <h1 class="titre-projet">Mariage - Réalisation du site web</h1>
+    </section>
+
+    <!-- ---------- HERO BANNER SECONDARY IMAGE ---------- -->
+    <div class="banner-img banner-img-centre">
+        <img src="../img/mockup-mariage-site.png" alt="mockup site web mariage">
+    </div>
+    
+    <!-- ---------- CONTAINER ---------- -->
+    <div class="container animation">
+
+        <!-- ---------- SECTION DETAILS PROJET ---------- -->
+        <section class="section-details">
+            <h2>Détails du projet</h2>
+            <div class="container-tour container-vertical">
+                <div class="details">
+                    <p class="type-name">Services</p>
+                    <p class="type-details">Développement front, UX/UI</p>
+                </div>
+
+                <div class="separation-horizontale"></div>
+
+                <div class="details">
+                    <p class="type-name">Client</p>
+                    <p class="type-details">Famille</p>
+                </div>
+
+                <div class="separation-horizontale"></div>
+
+                <div class="details">
+                    <p class="type-name">Logiciels</p>
+                    <p class="type-details">Figma, VsCode, React, GitHub</p>
+                </div>
+
+                <div class="separation-horizontale"></div>
+
+                <div class="details">
+                    <p class="type-name">Date</p>
+                    <p class="type-details">mars 2025 - avril 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------- SECTION ABOUT ---------- -->
+        <section class="section-about">
+            <h2>A propos</h2>
+            <div class="about-description">
+                <p>Création d’un site web de mariage sous React pour prolonger et enrichir la communication papier existante que j'ai réalisée (Save the date, RSVP), tout en facilitant l’organisation et l’expérience des invités. Objectifs : renforcer l’immersion des invités, réduire les coûts d’impression, garantir une mise à jour instantanée des informations et assurer une continuité visuelle avec les supports papier déjà envoyés.</p>
+                <p>Face à la complexité croissante des informations à transmettre (lieux multiples, hébergements, dress code, planning détaillé, accès), un site web sur mesure s'est imposé comme la solution idéale pour offrir une présentation plus complète et interactive que le faire-part sous format papier. Ce site ne se limite pas à un simple relai d’informations : il propose une véritable immersion grâce à une navigation fluide, des contenus interactifs et un storytelling visuel en cohérence avec l’univers du mariage.</p>
+                <p>Entièrement conçu et développé sous React, ce projet m'a permis de mettre en pratique mes connaissances récemment acquises sur ce framework.</p>
+                <p><u>Missions :</u></p>
+                <ul>
+                    <li>- Analyse des besoins et des objectifs des futurs mariés pour concevoir une expérience utilisateur adaptée.</li>
+                    <li>- Réalisation d'une veille graphique et fonctionnelle pour s'inspirer des meilleures pratiques adaptées à un site événementiel.</li>
+                    <li>- Élaboration de croquis préparatoires (wireframes) pour structurer l'information et visualiser l'architecture du site.</li>
+                    <li>- Conception d'une maquette graphique détaillée en cohérence avec l'identité visuelle des supports papier existants.</li>
+                    <li>- Développement complet  et responsive du site web sous React avec intégration de fonctionnalités personnalisées.</li>
+                    <li>- Gestion de l'hébergement et déploiement du site sur un serveur pour garantir sa disponibilité et son accessibilité.</li>
+                </ul>
+                <div class="bouttons">
+                    <a href="https://www.figma.com/proto/E7geKCUdgUiwpZUcZmlw1i/Mariage-St%C3%A9phie---Alain---2024-2025?node-id=212-3&starting-point-node-id=293%3A68" target="_blank" class="button button-blue">Accéder au projet</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ---------- CONTAINER ---------- -->
+    <div class="container-purple">
+        <div class="container container-fit animation">
+
+            <!-- ---------- SECTION HARDSKILLS ---------- -->
+            <section class="section-hardskills">
+                <h2>Hardskills</h2>
+                <div class="container-tour container-vertical">
+                    <p class="hardskill">Analyser les besoins utilisateurs et les transformer en solutions adaptées.</p>
+
+                    <div class="separation-horizontale"></div>
+
+                    <p class="hardskill"> Concevoir une interface cohérente avec une identité graphique préexistante.</p>
+
+                    <div class="separation-horizontale"></div>
+
+                    <p class="hardskill">Développer un site web dynamique et responsive avec React.</p>
+
+                    <div class="separation-horizontale"></div>
+
+                    <p class="hardskill">Gérer l’hébergement, le déploiement et l’optimisation d’un site web.</p>
+                </div>
+            </section>
+
+            <!-- ---------- SECTION SOFTSKILLS ---------- -->
+            <section class="section-softskills">
+                <h2>Softskills</h2>
+                <div class="container-softskills">
+                    <div class="container-soft-vertical">
+                        <div class="softskill">
+                            <i class="icon icon-35px ecoute"></i>
+                            <p class="softskill-name">Écoute active</p>
+                        </div>
+                        <div class="softskill">
+                            <i class="icon icon-35px creativite"></i>
+                            <p class="softskill-name">Créativité</p>
+                        </div>
+                        <div class="softskill">
+                            <i class="icon icon-35px curiosite"></i>
+                            <p class="softskill-name">Curiosité</p>
+                        </div>
+                    </div>
+                    <div class="container-soft-vertical">
+                        <div class="softskill">
+                            <i class="icon icon-35px adaptabilite"></i>
+                            <p class="softskill-name">Adaptabilité</p>
+                        </div>
+                        <div class="softskill">
+                            <i class="icon icon-35px souci-details"></i>
+                            <p class="softskill-name">Sens du détail</p>
+                        </div>
+                        <div class="softskill">
+                            <i class="icon icon-35px organise"></i>
+                            <p class="softskill-name">Organisé</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="bouton-centre">
+        <a href="../portfolio.html" class="button button-blue">Découvrir d'autres projets</a>
+    </div>
+    <!-- ---------- SECTION CONTACT ---------- -->
+    <section class="section-contact cadre">
+        <img src="../img/contact.webp" alt="message 3d">
+        <p>Ouverte à de nouvelles collaborations et avide d'apprendre, n'hésitez pas à me contacter pour discuter de vos projets créatifs ou de développement web. </p>
+        <a href="../contact.html" class="button button-blue">Me contacter</a>
+    </section>
+    
+
+    <!-- ---------- FOOTER ---------- -->
+    <footer>
+        <div class="section-avant-footer"></div>
+        <div class="footer-info marge">
+            <div class="text-footer">
+                <p>2025 - Tous droits réservés - Sabrina Le Gall</p>
+                <a href="../mentions-legales.html">Mentions légales</a>
+            </div>
+            <a href="https://www.linkedin.com/in/sabrina-le-gall-826b57221/" target="_blank"><ion-icon class="icon icon-30px black" name="logo-linkedin"></ion-icon></a>
+        </div>
+    </footer>   
+</body>
+</html>

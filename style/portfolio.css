@@ -102,6 +102,9 @@
 }
 
 /* Images projet */
+.projet-mariage-site{
+    background-image: url(../img/mockup-plein-mariage-site.png)
+}
 .projet-aquatic-species{
     background-image: url(../img/mockup-plein-aquatic-species.png)
 }

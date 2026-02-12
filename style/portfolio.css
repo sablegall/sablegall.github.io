@@ -102,6 +102,9 @@
 }
 
 /* Images projet */
+.projet-eco-domaine{
+    background-image: url(../img/mockup-plein-eco-domaine.png);
+}
 .projet-mariage-site{
     background-image: url(../img/mockup-plein-mariage-site.png)
 }

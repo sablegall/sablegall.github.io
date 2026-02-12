@@ -41,9 +41,20 @@
     align-items: center;
 }
 
-.section-accroche p{
-    text-align: center;
+.section-accroche h2{
+    text-align: start;
     width: 90%;
+}
+
+.section-accroche p{
+    width: 90%;
+}
+
+.sous-titre{
+    text-transform: uppercase;
+    color: #7FB0BA;
+    font-weight: bold;
+    font-size: 19px;
 }
 
 /* SECTION ABOUT */
@@ -98,13 +109,13 @@
     border-radius: 30px;
 }
 .slide-1{
-    background-image: url(../img/mockup-plein-mariage-site.png);
+    background-image: url(../img/mockup-plein-eco-domaine.png);
 }
 .slide-2{
-    background-image: url(../img/mockup-plein-aquatic-species.png);
+    background-image: url(../img/mockup-plein-mariage-site.png);
 }
 .slide-3{
-    background-image: url(../img/mockup-plein-mariage-com.png);
+    background-image: url(../img/mockup-plein-aquatic-species.png);
 }
 
 .navigation{

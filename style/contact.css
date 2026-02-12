@@ -13,50 +13,36 @@
     gap: 30px;
     margin-top: -80px;
 }
+.contact-description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .section-formulaire p{
     text-align: center;
     width: 70%;
 }
 .container-form{
     background-color: white;
-    padding: 20px 0 20px 0;
+    padding: 70px 0 70px 0;
     border-radius: 15px;
     width: 80%;
     display: flex;
     align-items: center;
     gap: 80px;
 }
-form{
+.form{
     width: 100%;
-}
-ul{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
 }
-li{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.form p{
+    text-align: start;
 }
-
-input, textarea{
-    background-color: #F5F5F5;
-    border: none;
-    border-radius: 5px;
-}
-
-input{
-    height: 30px;
-}
-
-textarea{
-    height: 90px;
-}
-
-#bouton-form{
-    background: none;
-    cursor: pointer;
+.bouton-contact{
+    z-index: 1;
 }
 
 footer{

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariage 2025 - Portfolio Sabrina Le Gall</title>
+    <link rel="stylesheet" href="../style/general.css">
+    <link rel="stylesheet" href="../style/composants.css">
+    <link rel="stylesheet" href="../style/projet.css">
+    <link rel="icon" type="image/x-icon" href="../icons/favicon-sabrina.svg">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body class="marge">
+
+    <!-- ---------- HEADER ---------- -->
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../img/logo-sabrina.svg" alt="logo" class="img-logo">
+        </a>
+        <nav id="navbar">
+            <a href="../index.html" class="link-header">Accueil</a>
+            <a href="../a-propos.html" class="link-header">A propos</a>
+            <a href="../portfolio.html" class="link-header active">Projets</a>
+            <a href="../contact.html" class="link-header">Contact</a>
+            <span class="line"></span>
+        </nav>
+        <div class="button-menu">
+            <a href="../fichier/guide-client.pdf" target="_blank" class="button button-yellow">Mes services</a>
+            <a href="../fichier/LE GALL Sabrina - CV.pdf" target="_blank" class="button button-blue">CV</a>
+            <ion-icon class="icon icon-35px grey menu-hamburger"name="menu"></ion-icon>
+        </div>
+    </header>
+
+    <!-- MENU HAMBURGER -->
+    <nav class="navbar-mobile">
+        <a href="../Accueil.html" class="link-header">Accueil</a>
+        <a href="../a-propos.html" class="link-header">A propos</a>
+        <a href="../portfolio.html" class="link-header active">Projets</a>
+        <a href="../contact.html" class="link-header">Contact</a>
+    </nav>
+
+    <script>
+        const menu_hamburger = document.querySelector(".menu-hamburger");
+        const navbar_mobile = document.querySelector(".navbar-mobile");
+
+        menu_hamburger.addEventListener('click', ()=>{
+            navbar_mobile.classList.toggle('mobile-menu')
+        })
+    </script>
+
+    <!-- ---------- HERO BANNER SECONDARY ---------- -->
+    <section class="hero-banner-secondary banner-centre">
+        <h1 class="titre-projet">Immersion - Création de visuels & gestion de données</h1>
+    </section>
+
+    <!-- ---------- HERO BANNER SECONDARY IMAGE ---------- -->
+    <div class="banner-img banner-img-centre">
+        <img src="../img/mockup-eco-domaine.png" alt="mockup site web mariage">
+    </div>
+    
+    <!-- ---------- CONTAINER ---------- -->
+    <div class="container animation">
+
+        <!-- ---------- SECTION DETAILS PROJET ---------- -->
+        <section class="section-details">
+            <h2>Détails du projet</h2>
+            <div class="container-tour container-vertical">
+                <div class="details">
+                    <p class="type-name">Services</p>
+                    <p class="type-details">Graphisme</p>
+                </div>
+
+                <div class="separation-horizontale"></div>
+
+                <div class="details">
+                    <p class="type-name">Client</p>
+                    <p class="type-details">Éco Domaine La Fontaine</p>
+                </div>
+
+                <div class="separation-horizontale"></div>
+
+                <div class="details">
+                    <p class="type-name">Logiciels</p>
+                    <p class="type-details">Canva, Google Sheet, Combo, WordPress</p>
+                </div>
+
+                <div class="separation-horizontale"></div>
+
+                <div class="details">
+                    <p class="type-name">Date</p>
+                    <p class="type-details">Juin 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------- SECTION ABOUT ---------- -->
+        <section class="section-about">
+            <h2>A propos</h2>
+            <div class="about-description">
+                <p>CPendant deux semaines, j’ai réalisé une immersion à l’Éco Domaine La Fontaine afin de découvrir une autre facette du métier de la communication, plus ancrée dans le terrain et le quotidien d’une structure locale.</p>
+                <p>Cette expérience m’a permis de tester concrètement mes compétences et d’en développer de nouvelles, tout en m’adaptant aux besoins réels d’un lieu et de ses publics. J’ai notamment travaillé sur la création et la retouche de supports visuels (affiches, flyers, bandeaux de signature, visuels de communication), en veillant à rester cohérente avec l’identité existante du Domaine et les consignes énoncées.</p>
+                <p>En parallèle, j’ai participé à la gestion et à l’organisation de données sur Google Sheets, ce qui m’a permis de mieux comprendre les enjeux de structuration et de suivi de l’information en communication. J’ai également pris part à la vie du Domaine en participant à des événements sur place, une expérience qui m’a sensibilisée à l’importance d’une communication à la fois visuelle, humaine et adaptée au contexte réel.</p>
+                <p>Cette immersion a renforcé mon intérêt pour une communication concrète, utile et proche des personnes, en lien direct avec leur activité et leur environnement.</p>
+                <div class="bouttons">
+                    <a href="../fichier/projet-eco-domaine-la-fontaine.pdf" target="_blank" class="button button-blue">Accéder au projet</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ---------- CONTAINER ---------- -->
+    <div class="container-purple">
+        <div class="container container-fit animation">
+
+            <!-- ---------- SECTION HARDSKILLS ---------- -->
+            <section class="section-hardskills">
+                <h2>Hardskills</h2>
+                <div class="container-tour container-vertical">
+                    <p class="hardskill">Étude d’autres supports pour s’inspirer et répondre aux attentes.</p>
+
+                    <div class="separation-horizontale"></div>
+
+                    <p class="hardskill">Harmonisation des éléments graphiques pour une lecture fluide.</p>
+
+                    <div class="separation-horizontale"></div>
+
+                    <p class="hardskill">Vérification de l’ergonomie et de l’impact visuel avant finalisation.</p>
+
+                    <div class="separation-horizontale"></div>
+
+                    <p class="hardskill">Structuration et harmonisation des données (mise en forme, hiérarchie, lisibilité).</p>
+                </div>
+            </section>
+
+            <!-- ---------- SECTION SOFTSKILLS ---------- -->
+            <section class="section-softskills">
+                <h2>Softskills</h2>
+                <div class="container-softskills">
+                    <div class="container-soft-vertical">
+                        <div class="softskill">
+                            <i class="icon icon-35px ecoute"></i>
+                            <p class="softskill-name">Écoute active</p>
+                        </div>
+                        <div class="softskill">
+                            <i class="icon icon-35px creativite"></i>
+                            <p class="softskill-name">Créativité</p>
+                        </div>
+                        <div class="softskill">
+                            <i class="icon icon-35px reactivite"></i>
+                            <p class="softskill-name">Réactivité</p>
+                        </div>
+                    </div>
+                    <div class="container-soft-vertical">
+                        <div class="softskill">
+                            <i class="icon icon-35px adaptabilite"></i>
+                            <p class="softskill-name">Adaptabilité</p>
+                        </div>
+                        <div class="softskill">
+                            <i class="icon icon-35px souci-details"></i>
+                            <p class="softskill-name">Sens du détail</p>
+                        </div>
+                        <div class="softskill">
+                            <i class="icon icon-35px organise"></i>
+                            <p class="softskill-name">Organisé</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="bouton-centre">
+        <a href="../portfolio.html" class="button button-blue">Découvrir d'autres projets</a>
+        <a href="../fichier/guide-client.pdf" class="button button-purple">Découvrir mes services</a>
+    </div>
+    <!-- ---------- SECTION CONTACT ---------- -->
+    <section class="section-contact cadre">
+        <img src="../img/contact.webp" alt="message 3d">
+        <p>Ouverte à de nouvelles collaborations et avide d'apprendre, n'hésitez pas à me contacter pour discuter de vos projets créatifs ou de développement web. </p>
+        <a href="../contact.html" class="button button-blue">Me contacter</a>
+    </section>
+    
+
+    <!-- ---------- FOOTER ---------- -->
+    <footer>
+        <div class="section-avant-footer"></div>
+        <div class="footer-info marge">
+            <div class="text-footer">
+                <p>2025 - Tous droits réservés - Sabrina Le Gall</p>
+                <a href="../mentions-legales.html">Mentions légales</a>
+            </div>
+            <a href="https://www.linkedin.com/in/sabrina-le-gall-826b57221/" target="_blank"><ion-icon class="icon icon-30px black" name="logo-linkedin"></ion-icon></a>
+        </div>
+    </footer>   
+</body>
+</html>
